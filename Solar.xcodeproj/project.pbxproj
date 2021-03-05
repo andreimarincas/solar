@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26A72EC201C2F1A00A9CBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A72EB201C2F1A00A9CBC3 /* AppDelegate.swift */; };
+		F26A72F3201C2F1A00A9CBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26A72F2201C2F1A00A9CBC3 /* Assets.xcassets */; };
+		F26A7301201C2F1A00A9CBC3 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7300201C2F1A00A9CBC3 /* SolarTests.swift */; };
+		F26A730C201C2FE600A9CBC3 /* MainViewController.old.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A730B201C2FE600A9CBC3 /* MainViewController.old.swift */; };
+		F26A730F201C30D100A9CBC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26A730E201C30D100A9CBC3 /* Default-568h@2x.png */; };
+		F26A7311201CEA0F00A9CBC3 /* CubicBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7310201CEA0F00A9CBC3 /* CubicBezier.swift */; };
+		F26A7313201CEB4A00A9CBC3 /* AboveHorizonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7312201CEB4A00A9CBC3 /* AboveHorizonView.swift */; };
+		F26A7315201CEB8600A9CBC3 /* BelowHorizonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7314201CEB8600A9CBC3 /* BelowHorizonView.swift */; };
+		F26A7317201CEBBF00A9CBC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7316201CEBBF00A9CBC3 /* MainViewController.swift */; };
+		F26A7319201CEE1E00A9CBC3 /* CoreGraphics+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7318201CEE1E00A9CBC3 /* CoreGraphics+Util.swift */; };
+		F26A731B201D3E5800A9CBC3 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A731A201D3E5800A9CBC3 /* TrackingView.swift */; };
+		F26A731D201D781800A9CBC3 /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A731C201D781800A9CBC3 /* UIColor+Util.swift */; };
+		F26A731F201E00E900A9CBC3 /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A731E201E00E900A9CBC3 /* UIView+Util.swift */; };
+		F26A7321201E0C1100A9CBC3 /* Foundation+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7320201E0C1100A9CBC3 /* Foundation+Util.swift */; };
+		F26A73682020F76300A9CBC3 /* TestViewController.old.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A73672020F76200A9CBC3 /* TestViewController.old.swift */; };
+		F26A738A2021F16C00A9CBC3 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A73892021F16B00A9CBC3 /* AnimationViewController.swift */; };
+		F26A738E2021F3AB00A9CBC3 /* Compressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A738D2021F3AB00A9CBC3 /* Compressor.swift */; };
+		F27F04482023EEDF0092FFD3 /* Comp in Resources */ = {isa = PBXBuildFile; fileRef = F27F04472023EEDF0092FFD3 /* Comp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26A72FD201C2F1A00A9CBC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26A72E0201C2F1A00A9CBC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26A72E7201C2F1A00A9CBC3;
+			remoteInfo = Solar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F26A72E8201C2F1A00A9CBC3 /* Solar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26A72EB201C2F1A00A9CBC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F26A72F2201C2F1A00A9CBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26A72F7201C2F1A00A9CBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26A72FC201C2F1A00A9CBC3 /* SolarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26A7300201C2F1A00A9CBC3 /* SolarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarTests.swift; sourceTree = "<group>"; };
+		F26A7302201C2F1A00A9CBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26A730B201C2FE600A9CBC3 /* MainViewController.old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.old.swift; sourceTree = "<group>"; };
+		F26A730E201C30D100A9CBC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		F26A7310201CEA0F00A9CBC3 /* CubicBezier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicBezier.swift; sourceTree = "<group>"; };
+		F26A7312201CEB4A00A9CBC3 /* AboveHorizonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboveHorizonView.swift; sourceTree = "<group>"; };
+		F26A7314201CEB8600A9CBC3 /* BelowHorizonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BelowHorizonView.swift; sourceTree = "<group>"; };
+		F26A7316201CEBBF00A9CBC3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F26A7318201CEE1E00A9CBC3 /* CoreGraphics+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Util.swift"; sourceTree = "<group>"; };
+		F26A731A201D3E5800A9CBC3 /* TrackingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		F26A731C201D781800A9CBC3 /* UIColor+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
+		F26A731E201E00E900A9CBC3 /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		F26A7320201E0C1100A9CBC3 /* Foundation+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Util.swift"; sourceTree = "<group>"; };
+		F26A73672020F76200A9CBC3 /* TestViewController.old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.old.swift; sourceTree = "<group>"; };
+		F26A73892021F16B00A9CBC3 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		F26A738D2021F3AB00A9CBC3 /* Compressor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compressor.swift; sourceTree = "<group>"; };
+		F27F04472023EEDF0092FFD3 /* Comp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Comp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26A72E5201C2F1A00A9CBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A72F9201C2F1A00A9CBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26A72DF201C2F1A00A9CBC3 = {
+			isa = PBXGroup;
+			children = (
+				F26A72EA201C2F1A00A9CBC3 /* Solar */,
+				F26A72FF201C2F1A00A9CBC3 /* SolarTests */,
+				F26A72E9201C2F1A00A9CBC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26A72E9201C2F1A00A9CBC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26A72E8201C2F1A00A9CBC3 /* Solar.app */,
+				F26A72FC201C2F1A00A9CBC3 /* SolarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26A72EA201C2F1A00A9CBC3 /* Solar */ = {
+			isa = PBXGroup;
+			children = (
+				F26A72EB201C2F1A00A9CBC3 /* AppDelegate.swift */,
+				F26A73892021F16B00A9CBC3 /* AnimationViewController.swift */,
+				F26A738D2021F3AB00A9CBC3 /* Compressor.swift */,
+				F26A73672020F76200A9CBC3 /* TestViewController.old.swift */,
+				F26A7316201CEBBF00A9CBC3 /* MainViewController.swift */,
+				F26A7310201CEA0F00A9CBC3 /* CubicBezier.swift */,
+				F26A7312201CEB4A00A9CBC3 /* AboveHorizonView.swift */,
+				F26A7314201CEB8600A9CBC3 /* BelowHorizonView.swift */,
+				F26A7318201CEE1E00A9CBC3 /* CoreGraphics+Util.swift */,
+				F26A731A201D3E5800A9CBC3 /* TrackingView.swift */,
+				F26A730B201C2FE600A9CBC3 /* MainViewController.old.swift */,
+				F26A731C201D781800A9CBC3 /* UIColor+Util.swift */,
+				F26A731E201E00E900A9CBC3 /* UIView+Util.swift */,
+				F26A7320201E0C1100A9CBC3 /* Foundation+Util.swift */,
+				F26A730D201C304800A9CBC3 /* Resources */,
+			);
+			path = Solar;
+			sourceTree = "<group>";
+		};
+		F26A72FF201C2F1A00A9CBC3 /* SolarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26A7300201C2F1A00A9CBC3 /* SolarTests.swift */,
+				F26A7302201C2F1A00A9CBC3 /* Info.plist */,
+			);
+			path = SolarTests;
+			sourceTree = "<group>";
+		};
+		F26A730D201C304800A9CBC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F27F04472023EEDF0092FFD3 /* Comp */,
+				F26A730E201C30D100A9CBC3 /* Default-568h@2x.png */,
+				F26A72F2201C2F1A00A9CBC3 /* Assets.xcassets */,
+				F26A72F7201C2F1A00A9CBC3 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26A72E7201C2F1A00A9CBC3 /* Solar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26A7305201C2F1A00A9CBC3 /* Build configuration list for PBXNativeTarget "Solar" */;
+			buildPhases = (
+				F26A72E4201C2F1A00A9CBC3 /* Sources */,
+				F26A72E5201C2F1A00A9CBC3 /* Frameworks */,
+				F26A72E6201C2F1A00A9CBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solar;
+			productName = Solar;
+			productReference = F26A72E8201C2F1A00A9CBC3 /* Solar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26A72FB201C2F1A00A9CBC3 /* SolarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26A7308201C2F1A00A9CBC3 /* Build configuration list for PBXNativeTarget "SolarTests" */;
+			buildPhases = (
+				F26A72F8201C2F1A00A9CBC3 /* Sources */,
+				F26A72F9201C2F1A00A9CBC3 /* Frameworks */,
+				F26A72FA201C2F1A00A9CBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26A72FE201C2F1A00A9CBC3 /* PBXTargetDependency */,
+			);
+			name = SolarTests;
+			productName = SolarTests;
+			productReference = F26A72FC201C2F1A00A9CBC3 /* SolarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26A72E0201C2F1A00A9CBC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andrei Marincas";
+				TargetAttributes = {
+					F26A72E7201C2F1A00A9CBC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F7U94HT3F7;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					F26A72FB201C2F1A00A9CBC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F7U94HT3F7;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F26A72E7201C2F1A00A9CBC3;
+					};
+				};
+			};
+			buildConfigurationList = F26A72E3201C2F1A00A9CBC3 /* Build configuration list for PBXProject "Solar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26A72DF201C2F1A00A9CBC3;
+			productRefGroup = F26A72E9201C2F1A00A9CBC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26A72E7201C2F1A00A9CBC3 /* Solar */,
+				F26A72FB201C2F1A00A9CBC3 /* SolarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26A72E6201C2F1A00A9CBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26A72F3201C2F1A00A9CBC3 /* Assets.xcassets in Resources */,
+				F27F04482023EEDF0092FFD3 /* Comp in Resources */,
+				F26A730F201C30D100A9CBC3 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A72FA201C2F1A00A9CBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26A72E4201C2F1A00A9CBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26A738E2021F3AB00A9CBC3 /* Compressor.swift in Sources */,
+				F26A7311201CEA0F00A9CBC3 /* CubicBezier.swift in Sources */,
+				F26A7319201CEE1E00A9CBC3 /* CoreGraphics+Util.swift in Sources */,
+				F26A731D201D781800A9CBC3 /* UIColor+Util.swift in Sources */,
+				F26A72EC201C2F1A00A9CBC3 /* AppDelegate.swift in Sources */,
+				F26A731B201D3E5800A9CBC3 /* TrackingView.swift in Sources */,
+				F26A7313201CEB4A00A9CBC3 /* AboveHorizonView.swift in Sources */,
+				F26A731F201E00E900A9CBC3 /* UIView+Util.swift in Sources */,
+				F26A7321201E0C1100A9CBC3 /* Foundation+Util.swift in Sources */,
+				F26A7317201CEBBF00A9CBC3 /* MainViewController.swift in Sources */,
+				F26A7315201CEB8600A9CBC3 /* BelowHorizonView.swift in Sources */,
+				F26A738A2021F16C00A9CBC3 /* AnimationViewController.swift in Sources */,
+				F26A73682020F76300A9CBC3 /* TestViewController.old.swift in Sources */,
+				F26A730C201C2FE600A9CBC3 /* MainViewController.old.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A72F8201C2F1A00A9CBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26A7301201C2F1A00A9CBC3 /* SolarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26A72FE201C2F1A00A9CBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26A72E7201C2F1A00A9CBC3 /* Solar */;
+			targetProxy = F26A72FD201C2F1A00A9CBC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F26A7303201C2F1A00A9CBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26A7304201C2F1A00A9CBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26A7306201C2F1A00A9CBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7U94HT3F7;
+				INFOPLIST_FILE = Solar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marincas.Solar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F26A7307201C2F1A00A9CBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7U94HT3F7;
+				INFOPLIST_FILE = Solar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marincas.Solar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F26A7309201C2F1A00A9CBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F7U94HT3F7;
+				INFOPLIST_FILE = SolarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marincas.SolarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar.app/Solar";
+			};
+			name = Debug;
+		};
+		F26A730A201C2F1A00A9CBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F7U94HT3F7;
+				INFOPLIST_FILE = SolarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marincas.SolarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar.app/Solar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26A72E3201C2F1A00A9CBC3 /* Build configuration list for PBXProject "Solar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26A7303201C2F1A00A9CBC3 /* Debug */,
+				F26A7304201C2F1A00A9CBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26A7305201C2F1A00A9CBC3 /* Build configuration list for PBXNativeTarget "Solar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26A7306201C2F1A00A9CBC3 /* Debug */,
+				F26A7307201C2F1A00A9CBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26A7308201C2F1A00A9CBC3 /* Build configuration list for PBXNativeTarget "SolarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26A7309201C2F1A00A9CBC3 /* Debug */,
+				F26A730A201C2F1A00A9CBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26A72E0201C2F1A00A9CBC3 /* Project object */;
+}
