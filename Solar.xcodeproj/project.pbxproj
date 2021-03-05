@@ -10,7 +10,6 @@
 		F26A72EC201C2F1A00A9CBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A72EB201C2F1A00A9CBC3 /* AppDelegate.swift */; };
 		F26A72F3201C2F1A00A9CBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26A72F2201C2F1A00A9CBC3 /* Assets.xcassets */; };
 		F26A7301201C2F1A00A9CBC3 /* SolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7300201C2F1A00A9CBC3 /* SolarTests.swift */; };
-		F26A730C201C2FE600A9CBC3 /* MainViewController.old.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A730B201C2FE600A9CBC3 /* MainViewController.old.swift */; };
 		F26A730F201C30D100A9CBC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26A730E201C30D100A9CBC3 /* Default-568h@2x.png */; };
 		F26A7311201CEA0F00A9CBC3 /* CubicBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7310201CEA0F00A9CBC3 /* CubicBezier.swift */; };
 		F26A7313201CEB4A00A9CBC3 /* AboveHorizonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7312201CEB4A00A9CBC3 /* AboveHorizonView.swift */; };
@@ -21,7 +20,6 @@
 		F26A731D201D781800A9CBC3 /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A731C201D781800A9CBC3 /* UIColor+Util.swift */; };
 		F26A731F201E00E900A9CBC3 /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A731E201E00E900A9CBC3 /* UIView+Util.swift */; };
 		F26A7321201E0C1100A9CBC3 /* Foundation+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A7320201E0C1100A9CBC3 /* Foundation+Util.swift */; };
-		F26A73682020F76300A9CBC3 /* TestViewController.old.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A73672020F76200A9CBC3 /* TestViewController.old.swift */; };
 		F26A738A2021F16C00A9CBC3 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A73892021F16B00A9CBC3 /* AnimationViewController.swift */; };
 		F26A738E2021F3AB00A9CBC3 /* Compressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A738D2021F3AB00A9CBC3 /* Compressor.swift */; };
 		F27F04482023EEDF0092FFD3 /* Comp in Resources */ = {isa = PBXBuildFile; fileRef = F27F04472023EEDF0092FFD3 /* Comp */; };
@@ -45,7 +43,6 @@
 		F26A72FC201C2F1A00A9CBC3 /* SolarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26A7300201C2F1A00A9CBC3 /* SolarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarTests.swift; sourceTree = "<group>"; };
 		F26A7302201C2F1A00A9CBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F26A730B201C2FE600A9CBC3 /* MainViewController.old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.old.swift; sourceTree = "<group>"; };
 		F26A730E201C30D100A9CBC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		F26A7310201CEA0F00A9CBC3 /* CubicBezier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicBezier.swift; sourceTree = "<group>"; };
 		F26A7312201CEB4A00A9CBC3 /* AboveHorizonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboveHorizonView.swift; sourceTree = "<group>"; };
@@ -56,7 +53,6 @@
 		F26A731C201D781800A9CBC3 /* UIColor+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
 		F26A731E201E00E900A9CBC3 /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
 		F26A7320201E0C1100A9CBC3 /* Foundation+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Util.swift"; sourceTree = "<group>"; };
-		F26A73672020F76200A9CBC3 /* TestViewController.old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.old.swift; sourceTree = "<group>"; };
 		F26A73892021F16B00A9CBC3 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		F26A738D2021F3AB00A9CBC3 /* Compressor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compressor.swift; sourceTree = "<group>"; };
 		F27F04472023EEDF0092FFD3 /* Comp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Comp; sourceTree = SOURCE_ROOT; };
@@ -104,14 +100,12 @@
 				F26A72EB201C2F1A00A9CBC3 /* AppDelegate.swift */,
 				F26A73892021F16B00A9CBC3 /* AnimationViewController.swift */,
 				F26A738D2021F3AB00A9CBC3 /* Compressor.swift */,
-				F26A73672020F76200A9CBC3 /* TestViewController.old.swift */,
 				F26A7316201CEBBF00A9CBC3 /* MainViewController.swift */,
 				F26A7310201CEA0F00A9CBC3 /* CubicBezier.swift */,
 				F26A7312201CEB4A00A9CBC3 /* AboveHorizonView.swift */,
 				F26A7314201CEB8600A9CBC3 /* BelowHorizonView.swift */,
 				F26A7318201CEE1E00A9CBC3 /* CoreGraphics+Util.swift */,
 				F26A731A201D3E5800A9CBC3 /* TrackingView.swift */,
-				F26A730B201C2FE600A9CBC3 /* MainViewController.old.swift */,
 				F26A731C201D781800A9CBC3 /* UIColor+Util.swift */,
 				F26A731E201E00E900A9CBC3 /* UIView+Util.swift */,
 				F26A7320201E0C1100A9CBC3 /* Foundation+Util.swift */,
@@ -208,6 +202,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -259,8 +254,6 @@
 				F26A7317201CEBBF00A9CBC3 /* MainViewController.swift in Sources */,
 				F26A7315201CEB8600A9CBC3 /* BelowHorizonView.swift in Sources */,
 				F26A738A2021F16C00A9CBC3 /* AnimationViewController.swift in Sources */,
-				F26A73682020F76300A9CBC3 /* TestViewController.old.swift in Sources */,
-				F26A730C201C2FE600A9CBC3 /* MainViewController.old.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
